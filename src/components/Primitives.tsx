@@ -22,17 +22,12 @@ export function Disclosure({ label, children, className = '' }: { label: ReactNo
   );
 }
 
-export function SourceDetails({ pages }: { pages: number[] }) {
+export function SourceLinks({ pages }: { pages: number[] }) {
   return (
-    <Disclosure className="source-details" label={<><BookOpen size={15} aria-hidden="true" /> Source · {pages.length > 1 ? 'pp.' : 'p.'} {pages.join(', ')}</>}>
-      <p>Gen Z's Relation to a Decrease in HIV Statistics of 2026</p>
-      {pages.map(page => (
-        <figure className="source-page" key={page}>
-          <img className="source-preview" src={`${import.meta.env.BASE_URL}source-pages/page-${page}.webp`} alt={`Research document page ${page}`} loading="lazy" />
-          <figcaption><a href={sourceUrl(page)}>Read page {page} in the PDF</a></figcaption>
-        </figure>
-      ))}
-    </Disclosure>
+    <span className="source-citations">
+      <BookOpen size={15} aria-hidden="true" />
+      {pages.map(page => <a key={page} href={sourceUrl(page)}>Source p. {page}</a>)}
+    </span>
   );
 }
 
@@ -76,7 +71,7 @@ export function SelectionDetail({ selection }: { selection: Selection | null }) 
       </div>
       {selection && <>
         {selection.sourceLink && <p><a href={selection.sourceLink}>Read the original DOH surveillance report</a></p>}
-        <SourceDetails key={selection.page} pages={[selection.page]} />
+        <SourceLinks pages={[selection.page]} />
       </>}
     </div>
   );
@@ -121,7 +116,7 @@ export function ChartCard({ title, subtitle, children, rows, onSelect, pages, to
       <Disclosure className="data-disclosure" label={<><Table2 size={15} aria-hidden="true" /> View data table</>}>
         <DataTable rows={rows} onSelect={onSelect} caption={title} />
       </Disclosure>
-      <div className="chart-footer"><SourceDetails pages={pages} /></div>
+      <div className="chart-footer"><SourceLinks pages={pages} /></div>
     </div>
   );
 }

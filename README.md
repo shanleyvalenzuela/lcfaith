@@ -33,7 +33,7 @@ Open the preview URL printed by Vite (normally `http://127.0.0.1:4173`). Preview
 - Shareable URL parameters for the annual range, age-comparison period, and selected region.
 - Responsive layouts, touch controls, visible focus states, keyboard-friendly inline disclosures, accessible alternatives to pointer-only charts, and reduced-motion support.
 - Searchable, filterable government and community program cards.
-- Local PDF and seven source-page previews. Browser charts do not fetch data from remote services.
+- Direct links to pages in the local PDF and an inline historical figure preview. Browser charts do not fetch data from remote services.
 
 The page uses Syabil and Gravitica when installed locally. It falls back to system fonts. See `public/fonts/README.md` for webfont setup. The figures, source previews, and photos are served locally.
 
@@ -64,7 +64,7 @@ The regional locator uses the [PSA/NAMRIA 2023 boundary snapshot pinned by GeoCe
 6. Select care-cascade stages; inspect the changing denominator notes.
 7. Switch quarterly/cumulative mortality and count/share views.
 8. Search/filter initiatives and expand their details.
-9. Expand charts, use data-table buttons, and expand source-page previews.
+9. Expand charts, use data-table buttons, and follow the source links to their PDF pages.
 10. Use Tab, Enter/Space, and range arrow keys. Try a narrow mobile viewport, browser zoom, and reduced-motion settings.
 
 ## Static deployment

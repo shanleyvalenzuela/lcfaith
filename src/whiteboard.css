@@ -67,9 +67,9 @@ h1, h2, h3, h4, p { font-family: var(--serif); }
 .disclosure[open] > summary .disclosure-chevron,
 .initiative-card[open] > summary .initiative-expand svg { transform: rotate(180deg); }
 .disclosure-content { overflow-wrap: anywhere; padding-bottom: 12px; }
-.source-details .disclosure-content { font-size: .8rem; }
-.source-page { margin: 12px 0; }
-.source-page .source-preview { margin: 0 0 6px; }
+.source-citations { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; padding: 8px 0; font-size: .8rem; }
+.source-citations a { color: inherit; white-space: nowrap; }
+.section-care .care-targets .source-citations { color: #d5eb9c; }
 .chart-footer { display: block; margin-top: 0; padding: 4px 0; }
 .chart-card .selection-detail { margin: 14px 0; }
 .chart-card .data-disclosure > summary { padding-block: 12px; }
@@ -81,8 +81,8 @@ h1, h2, h3, h4, p { font-family: var(--serif); }
 .chart-card.is-expanded .echart { height: clamp(390px, 60vh, 540px) !important; }
 .chart-card.is-expanded .cascade-track { height: clamp(130px, 32vh, 340px); }
 .source-notes { margin-top: 18px; border-top: 1px solid var(--line); }
-.source-notes > summary { min-height: 52px; }
 .source-notes .source-heading { margin-top: 16px; }
+.source-audit > h3 { font-size: 1rem; margin: 20px 0 8px; }
 .discussion .eyebrow { color: #536755; }
 .discussion-limit { border-inline-start: 2px solid #829987; padding-inline-start: 12px; margin: 14px 0; }
 .discussion-limit h4 { font-size: .88rem; margin-bottom: 4px; }
