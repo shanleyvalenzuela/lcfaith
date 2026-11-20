@@ -1,0 +1,6 @@
+[
+  {"id":"q4-2025","label":"Oct–Dec 2025","total":4277,"male":4038,"female":239,"sexual":[3508,207],"maleMale":2718,"both":504,"maleFemale":[286,207],"needles":[2,0],"motherChild":[5,3],"blood":[0,0],"needlestick":[0,0]},
+  {"id":"year-2025","label":"Jan–Dec 2025","total":19764,"male":18731,"female":1033,"sexual":[17231,925],"maleMale":13506,"both":2499,"maleFemale":[1226,925],"needles":[35,0],"motherChild":[28,19],"blood":[0,0],"needlestick":[0,0]},
+  {"id":"2020-2025","label":"Jan 2020–Dec 2025","total":89660,"male":85024,"female":4636,"sexual":[81674,4308],"maleMale":60257,"both":15398,"maleFemale":[6019,4308],"needles":[429,28],"motherChild":[119,113],"blood":[0,0],"needlestick":[0,0]},
+  {"id":"1984-2025","label":"Jan 1984–Dec 2025","total":163353,"male":154200,"female":9143,"sexual":[148013,8489],"maleMale":99043,"both":35604,"maleFemale":[13366,8489],"needles":[2490,156],"motherChild":[224,207],"blood":[5,14],"needlestick":[2,1]}
+]

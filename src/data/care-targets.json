@@ -1,0 +1,17 @@
+{
+  "period":"June 2026",
+  "page":3,
+  "targets":[
+    {"label":"Diagnosed PLHIV target","value":273600,"note":"95% of estimated 288,000"},
+    {"label":"On ART target","value":259920,"note":"95% of the diagnosed target"},
+    {"label":"Virally suppressed target","value":246924,"note":"95% of the ART target"}
+  ],
+  "figureAnnotations":[
+    {"label":"PLHIV to be diagnosed","value":113603},
+    {"label":"PLHIV to be enrolled on ART","value":117897},
+    {"label":"PLHIV to be returned to ART","value":30869},
+    {"label":"PLHIV to be tested for viral load","value":181294},
+    {"label":"PLHIV not virally suppressed","value":183074}
+  ],
+  "note":"The original figure's gaps are transcribed annotations relative to its targets. They are not independently measured patient transitions. The figure also shows 57% tested-for-viral-load coverage relative to ART, while the adjacent observed counts yield about 59%."
+}

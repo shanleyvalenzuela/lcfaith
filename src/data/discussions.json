@@ -1,0 +1,96 @@
+[
+  {
+    "id": "trends",
+    "title": "A decade in perspective",
+    "text": "The source's annual series rises from 9,122 diagnoses in 2016 to 19,764 in 2025, with a lower reported count in 2020. Available 2026 quarters are shown separately from complete years.",
+    "limit": "The 2026 figures cover part of the year. The revised Q1 and Q2 DOH reports identify 4,633 and 2,994 diagnoses, respectively.",
+    "statisticIds": [
+      "annual-2016",
+      "annual-2025",
+      "q1-2026",
+      "q2-2026"
+    ],
+    "pages": [
+      1
+    ]
+  },
+  {
+    "id": "age",
+    "title": "Age groups tell a clearer story",
+    "text": "The document identifies ages 25–34 as the largest reported group and highlights the substantial share of diagnoses among ages 15–24. It gives a median age at diagnosis of 28. Compare the cumulative snapshots to explore the age distribution.",
+    "limit": "Age brackets overlap generations. These data cannot establish a generational effect. The DOH report identifies 182 Q2 diagnoses without age data.",
+    "statisticIds": [
+      "age-15-24",
+      "age-25-34"
+    ],
+    "pages": [
+      1,
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "regions",
+    "title": "Concentration is not prevalence",
+    "text": "NCR leads the five-region table, followed by CALABARZON and Central Luzon. A separate Q4 2025 passage says these five regions accounted for 60% (2,562) of newly reported cases in that quarter.",
+    "limit": "The original DOH table identifies the larger counts as cumulative from January 1984 through December 2025. Population denominators are needed to compare regional prevalence.",
+    "statisticIds": [
+      "ncr",
+      "calabarzon",
+      "central-luzon",
+      "central-visayas",
+      "davao"
+    ],
+    "pages": [
+      2
+    ]
+  },
+  {
+    "id": "transmission",
+    "title": "Read the categories with context",
+    "text": "Sexual contact accounts for 156,502 cases, reported as 96% of 163,353 cumulative diagnoses. Expand the category to explore its three subcategories. Other reported modes remain visible with their exact counts.",
+    "limit": "These are surveillance categories, not measures of identity or individual risk. Listed modes total 159,601; the remaining 3,752 cases are not categorized here. No missing mode is inferred.",
+    "statisticIds": [
+      "sexual",
+      "male-male",
+      "both",
+      "male-female"
+    ],
+    "pages": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "care",
+    "title": "A different denominator at each step",
+    "text": "The June 2026 cascade moves from an estimated 288,000 people living with HIV to 159,997 diagnosed, 111,154 on ART, 65,630 tested for viral load, and 63,850 virally suppressed. The suppression percentage applies to those tested.",
+    "limit": "This aggregate snapshot does not track an individual patient cohort. Stage gaps are not measured dropout. The original figure's 95–95–95 targets are goals, not observed totals.",
+    "statisticIds": [
+      "estimated",
+      "diagnosed",
+      "art",
+      "tested",
+      "suppressed"
+    ],
+    "pages": [
+      3
+    ]
+  },
+  {
+    "id": "mortality",
+    "title": "Every count represents a life",
+    "text": "The source reports 352 deaths from any cause among people diagnosed with HIV during Q2 2026, described as 9% lower than Q2 2025. It also discusses cumulative deaths and advanced disease at diagnosis.",
+    "limit": "These are reported death counts. A consistent population-at-risk denominator is not supplied, so the site does not calculate mortality rates or attribute all deaths to HIV.",
+    "statisticIds": [
+      "all-deaths",
+      "ahd",
+      "ahd-deaths"
+    ],
+    "pages": [
+      3,
+      4
+    ]
+  }
+]

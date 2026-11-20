@@ -1,0 +1,172 @@
+{
+  "quarter": [
+    {
+      "id": "dq-under15",
+      "label": "Under 15",
+      "value": 2,
+      "unit": "deaths",
+      "period": "Q2 2026",
+      "denominator": 352,
+      "sourcePage": 3,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dq-15-24",
+      "label": "15–24",
+      "value": 36,
+      "unit": "deaths",
+      "period": "Q2 2026",
+      "denominator": 352,
+      "sourcePage": 3,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dq-25-34",
+      "label": "25–34",
+      "value": 179,
+      "unit": "deaths",
+      "period": "Q2 2026",
+      "denominator": 352,
+      "sourcePage": 3,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dq-35-49",
+      "label": "35–49",
+      "value": 111,
+      "unit": "deaths",
+      "period": "Q2 2026",
+      "denominator": 352,
+      "sourcePage": 3,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dq-50",
+      "label": "50+",
+      "value": 24,
+      "unit": "deaths",
+      "period": "Q2 2026",
+      "denominator": 352,
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    }
+  ],
+  "cumulative": [
+    {
+      "id": "dc-under15",
+      "label": "Under 15",
+      "value": 74,
+      "unit": "deaths",
+      "period": "January 1984–June 2026",
+      "denominator": 11069,
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dc-15-24",
+      "label": "15–24",
+      "value": 1521,
+      "unit": "deaths",
+      "period": "January 1984–June 2026",
+      "denominator": 11069,
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dc-25-34",
+      "label": "25–34",
+      "value": 4954,
+      "unit": "deaths",
+      "period": "January 1984–June 2026",
+      "denominator": 11069,
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dc-35-49",
+      "label": "35–49",
+      "value": 2921,
+      "unit": "deaths",
+      "period": "January 1984–June 2026",
+      "denominator": 11069,
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dc-50",
+      "label": "50+",
+      "value": 598,
+      "unit": "deaths",
+      "period": "January 1984–June 2026",
+      "denominator": 11069,
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "dc-unknown",
+      "label": "Age not reported",
+      "value": 1001,
+      "unit": "deaths",
+      "period": "January 1984–June 2026",
+      "denominator": 11069,
+      "sourcePage": 4,
+      "status": "transcribed",
+      "note": "Derived remainder: 11,069 minus the five reported age counts. Source rounds this share to 9%.",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    }
+  ],
+  "summaries": [
+    {
+      "id": "deaths-2020",
+      "label": "Reported deaths, 2020–2026",
+      "value": 7430,
+      "unit": "deaths",
+      "period": "2020–2026, as labeled in source",
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "all-deaths",
+      "label": "Cumulative reported deaths",
+      "value": 11069,
+      "unit": "deaths",
+      "period": "January 1984–June 2026",
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "id": "ahd",
+      "label": "Advanced disease at diagnosis",
+      "value": 49703,
+      "unit": "people",
+      "period": "Through Dec 2025",
+      "sourcePage": 3,
+      "status": "conflicting",
+      "note": "Source reports 32%, but denominator is unclear; no substitute total used."
+    },
+    {
+      "id": "ahd-deaths",
+      "label": "Deaths with advanced disease at diagnosis",
+      "value": 5256,
+      "unit": "people",
+      "period": "Cumulative deaths in source",
+      "denominator": 11069,
+      "sourcePage": 4,
+      "status": "transcribed",
+      "note": "Source reports 47% of cumulative deaths.",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    }
+  ]
+}

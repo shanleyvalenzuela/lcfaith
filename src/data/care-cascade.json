@@ -1,0 +1,7 @@
+[
+  {"id":"estimated","label":"Estimated PLHIV","value":288000,"unit":"people","period":"June 2026","sourcePage":3,"status":"transcribed","note":"Estimated people living with HIV; not a count of reported diagnoses."},
+  {"id":"diagnosed","label":"Diagnosed","value":159997,"unit":"people","period":"June 2026","denominator":288000,"sourcePage":3,"status":"transcribed","note":"55.6% of estimated PLHIV. This living-population figure has a different scope from cumulative diagnoses."},
+  {"id":"art","label":"On ART","value":111154,"unit":"people","period":"June 2026","denominator":159997,"sourcePage":3,"status":"transcribed","note":"69.5% of diagnosed PLHIV. ART means antiretroviral therapy."},
+  {"id":"tested","label":"Viral load tested","value":65630,"unit":"people","period":"June 2026","denominator":111154,"sourcePage":3,"status":"transcribed","note":"59.0% of people on ART."},
+  {"id":"suppressed","label":"Virally suppressed","value":63850,"unit":"people","period":"June 2026","denominator":65630,"sourcePage":3,"status":"transcribed","note":"97.3% of those tested, not 97% of all estimated people living with HIV."}
+]

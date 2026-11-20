@@ -1,0 +1,12 @@
+[
+  {"id":"annual-2016","label":"2016","value":9122,"unit":"cases","period":"2016","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2017","label":"2017","value":10968,"unit":"cases","period":"2017","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2018","label":"2018","value":11290,"unit":"cases","period":"2018","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2019","label":"2019","value":12708,"unit":"cases","period":"2019","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2020","label":"2020","value":8025,"unit":"cases","period":"2020","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2021","label":"2021","value":12315,"unit":"cases","period":"2021","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2022","label":"2022","value":14924,"unit":"cases","period":"2022","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2023","label":"2023","value":17225,"unit":"cases","period":"2023","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2024","label":"2024","value":17508,"unit":"cases","period":"2024","sourcePage":1,"status":"transcribed"},
+  {"id":"annual-2025","label":"2025","value":19764,"unit":"cases","period":"2025","sourcePage":1,"status":"transcribed"}
+]

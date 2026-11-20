@@ -1,0 +1,41 @@
+[
+  {
+    "id": "q1-2026",
+    "label": "Q1 · Jan–Mar",
+    "value": 4633,
+    "unit": "cases",
+    "period": "Q1 2026",
+    "sourcePage": 1,
+    "status": "transcribed",
+    "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q1-HIV-AIDS-Surveillance-of-the-Philippines_revised-1.pdf"
+  },
+  {
+    "id": "q2-2026",
+    "label": "Q2 · Apr–Jun",
+    "value": 2994,
+    "unit": "cases",
+    "period": "Q2 2026",
+    "sourcePage": 1,
+    "status": "transcribed",
+    "note": "The 7,624 figure in the research PDF matches the sum of January–June monthly counts in the DOH Q2 report.",
+    "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+  },
+  {
+    "id": "q3-2026",
+    "label": "Q3 · Jul–Sep",
+    "value": null,
+    "unit": "cases",
+    "period": "Q3 2026",
+    "sourcePage": 1,
+    "status": "missing"
+  },
+  {
+    "id": "q4-2026",
+    "label": "Q4 · Oct–Dec",
+    "value": null,
+    "unit": "cases",
+    "period": "Q4 2026",
+    "sourcePage": 1,
+    "status": "missing"
+  }
+]

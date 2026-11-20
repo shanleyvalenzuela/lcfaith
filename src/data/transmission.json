@@ -1,0 +1,14 @@
+{
+  "summary":[
+    {"id":"sexual","label":"Sexual contact","value":156502,"unit":"cases","period":"Jan 1984–Dec 2025","denominator":163353,"sourcePage":2,"status":"transcribed"},
+    {"id":"needles","label":"Sharing of infected needles","value":2646,"unit":"cases","period":"Jan 1984–Dec 2025","denominator":163353,"sourcePage":3,"status":"transcribed"},
+    {"id":"mother-child","label":"Mother-to-child","value":431,"unit":"cases","period":"Jan 1984–Dec 2025","denominator":163353,"sourcePage":3,"status":"transcribed"},
+    {"id":"blood","label":"Blood products","value":19,"unit":"cases","period":"Jan 1984–Dec 2025","denominator":163353,"sourcePage":3,"status":"transcribed"},
+    {"id":"needlestick","label":"Needlestick injury","value":3,"unit":"cases","period":"Jan 1984–Dec 2025","denominator":163353,"sourcePage":3,"status":"transcribed"}
+  ],
+  "sexualBreakdown":[
+    {"id":"male-male","label":"Male–male","value":99043,"unit":"cases","period":"Jan 1984–Dec 2025","denominator":156502,"sourcePage":2,"status":"transcribed"},
+    {"id":"both","label":"Both males & females","value":35604,"unit":"cases","period":"Jan 1984–Dec 2025","denominator":156502,"sourcePage":2,"status":"transcribed"},
+    {"id":"male-female","label":"Male–female","value":21855,"unit":"cases","period":"Jan 1984–Dec 2025","denominator":156502,"sourcePage":2,"status":"transcribed"}
+  ]
+}

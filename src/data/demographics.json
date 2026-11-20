@@ -1,0 +1,131 @@
+{
+  "sex": [
+    {
+      "id": "male",
+      "label": "Male",
+      "value": 154296,
+      "unit": "cases",
+      "period": "Jan 1984–Dec 2025",
+      "sourcePage": 1,
+      "status": "conflicting",
+      "note": "Source reports 94%. The two counts sum to 163,444, different from other cumulative totals."
+    },
+    {
+      "id": "female",
+      "label": "Female",
+      "value": 9148,
+      "unit": "cases",
+      "period": "Jan 1984–Dec 2025",
+      "sourcePage": 1,
+      "status": "conflicting",
+      "note": "Source reports 6%. Counts are not reconciled against other cumulative datasets."
+    }
+  ],
+  "ageQuarter": [
+    {
+      "id": "age-under15",
+      "label": "Under 15",
+      "value": 10,
+      "unit": "cases",
+      "period": "Q2 2026, as labeled in prose",
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf",
+      "denominator": 2994
+    },
+    {
+      "id": "age-15-24",
+      "label": "15–24",
+      "value": 918,
+      "unit": "cases",
+      "period": "Q2 2026, as labeled in prose",
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf",
+      "denominator": 2994
+    },
+    {
+      "id": "age-25-34",
+      "label": "25–34",
+      "value": 1294,
+      "unit": "cases",
+      "period": "Q2 2026, as labeled in prose",
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf",
+      "denominator": 2994
+    },
+    {
+      "id": "age-35-49",
+      "label": "35–49",
+      "value": 509,
+      "unit": "cases",
+      "period": "Q2 2026, as labeled in prose",
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf",
+      "denominator": 2994
+    },
+    {
+      "id": "age-50",
+      "label": "50+",
+      "value": 81,
+      "unit": "cases",
+      "period": "Q2 2026, as labeled in prose",
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf",
+      "denominator": 2994
+    },
+    {
+      "id": "age-q2-unknown",
+      "label": "Age not reported",
+      "value": 182,
+      "unit": "cases",
+      "period": "Q2 2026",
+      "sourcePage": 4,
+      "status": "transcribed",
+      "sourceLink": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf",
+      "denominator": 2994,
+      "note": "The original DOH report identifies 182 diagnoses with no age data."
+    }
+  ],
+  "snapshots": [
+    {
+      "label": "Under 15",
+      "dec2020": 249,
+      "dec2025": 565,
+      "jun2021": 264,
+      "jun2026": 596
+    },
+    {
+      "label": "15–24",
+      "dec2020": 23511,
+      "dec2025": 49015,
+      "jun2021": 25085,
+      "jun2026": 51375
+    },
+    {
+      "label": "25–34",
+      "dec2020": 41449,
+      "dec2025": 80781,
+      "jun2021": 44170,
+      "jun2026": 84185
+    },
+    {
+      "label": "35–49",
+      "dec2020": 14276,
+      "dec2025": 28806,
+      "jun2021": 15172,
+      "jun2026": 30158
+    },
+    {
+      "label": "50+",
+      "dec2020": 2161,
+      "dec2025": 4164,
+      "jun2021": 2282,
+      "jun2026": 4360
+    }
+  ],
+  "medianAge": 28
+}

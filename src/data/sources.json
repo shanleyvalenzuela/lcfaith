@@ -1,0 +1,61 @@
+{
+  "title": "Gen Z's Relation to a Decrease in HIV Statistics of 2026",
+  "references": [
+    {
+      "title": "DOH Q4 2025 surveillance report",
+      "detail": "Confirms the regional table period and transmission counts. The national registry total, age table, and transmission table have different coverage.",
+      "pages": "1–3",
+      "url": "https://www.ship.ph/wp-content/uploads/2026/02/2025_Q4-HIV-AIDS-Surveillance-Report-of-the-Philippines-2.pdf"
+    },
+    {
+      "title": "DOH revised Q1 2026 surveillance report",
+      "detail": "Reports 4,633 diagnoses for January–March 2026.",
+      "pages": "1",
+      "url": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q1-HIV-AIDS-Surveillance-of-the-Philippines_revised-1.pdf"
+    },
+    {
+      "title": "DOH Q2 2026 surveillance report",
+      "detail": "Reports 2,994 diagnoses for April–June, including 182 without age data. The 7,624 figure matches the sum of January–June monthly counts. The report also confirms the June age comparison and cumulative mortality period.",
+      "pages": "1, 3–5",
+      "url": "https://www.ship.ph/wp-content/uploads/2026/08/2026_Q2-HIV-AIDS-Surveillance-of-the-Philippines-2.pdf"
+    },
+    {
+      "title": "PhilHealth enhanced OHAT package",
+      "detail": "Source reports a ₱58,500 annual benefit, increased from ₱30,000. This is a source-attributed benefit, not an individual out-of-pocket cost or current eligibility determination.",
+      "pages": "5",
+      "url": "https://www.philhealth.gov.ph/news/up/article/2025/news_692e3134d8786.php"
+    }
+  ],
+  "discrepancies": [
+    {
+      "title": "Quarterly and first-half counts",
+      "detail": "Reports 2,994 diagnoses for April–June, including 182 without age data. The 7,624 figure matches the sum of January–June monthly counts. The report also confirms the June age comparison and cumulative mortality period.",
+      "pages": "1, 4"
+    },
+    {
+      "title": "Youth growth claim differs from the table",
+      "detail": "The original DOH table confirms a 104.80% increase in cumulative diagnoses for ages 15–24 between June 2021 and June 2026. The research PDF’s +302% claim is unsupported by that comparison.",
+      "pages": "4–5"
+    },
+    {
+      "title": "Cumulative totals differ",
+      "detail": "The DOH Q4 2025 report gives 163,454 overall, 163,444 with recorded sex, 163,331 across known age groups, and 163,353 as the denominator for the transmission table.",
+      "pages": "1–3"
+    },
+    {
+      "title": "Regional reporting periods",
+      "detail": "The original DOH table confirms the regional counts span January 1984–December 2025. The separate 2,562 figure counts Q4 2025 diagnoses across the five regions.",
+      "pages": "2"
+    },
+    {
+      "title": "Image-only historical data",
+      "detail": "Annual 2016–2025 labels and two age-snapshot tables were transcribed from images. The 1984–2026 age-share chart has no readable numeric series; its source page is provided without guessed values.",
+      "pages": "1, 2, 4, 5"
+    },
+    {
+      "title": "Missing periods and causal claims",
+      "detail": "The surveillance figures cannot establish that Gen Z influenced reported diagnoses. This infographic covers the first half of 2026. The original Q2 report confirms that cumulative death counts run through June 2026.",
+      "pages": "1, 4"
+    }
+  ]
+}
