@@ -26,7 +26,7 @@
 
 h1, h2, h3, h4, p { font-family: var(--serif); }
 .board-header { background: #b8e1dd; padding: 28px max(22px, calc((100% - 1200px)/2)) 48px; color: #283d42; }
-.board-credit, .board-instructions, .board-source-strip {
+.board-credit, .board-source-strip {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -36,8 +36,7 @@ h1, h2, h3, h4, p { font-family: var(--serif); }
 .board-credit { padding-bottom: 18px; border-bottom: 1px solid #638985; font-size: .75rem; }
 .board-title-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, 265px); gap: 28px; align-items: end; padding-top: 30px; }
 .board-title-row h1 { font-size: clamp(2.15rem, 5.5vw, 5rem); line-height: 1.04; letter-spacing: -.045em; overflow-wrap: anywhere; }
-.board-instructions { justify-content: flex-start; margin-top: 20px; font-size: .83rem; }
-.board-instructions span, .board-source-strip > span { display: inline-flex; align-items: center; gap: 6px; }
+.board-source-strip > span { display: inline-flex; align-items: center; gap: 6px; }
 .board-stickers { display: grid; gap: 12px; }
 .stat-sticker { display: grid; gap: 4px; padding: 15px 18px; border: 1px solid #638985; border-radius: 10px; }
 .stat-sticker strong { font-size: clamp(1.7rem, 4vw, 2.6rem); line-height: 1.1; }
@@ -98,7 +97,7 @@ h1, h2, h3, h4, p { font-family: var(--serif); }
 .photo-details[open] img { aspect-ratio: auto; }
 .photo-details summary > span { position: absolute; bottom: 10px; right: 10px; display: flex; align-items: center; gap: 6px; background: #fff; color: #173e36; padding: 6px 9px; border-radius: 6px; }
 .photo-details:not([open]) .photo-collapse, .photo-details[open] .photo-expand { display: none; }
-.photo-tile figcaption, .photo-credit { font-size: .82rem; padding: 8px 0; }
+.photo-tile figcaption { font-size: .82rem; padding: 8px 0; }
 .outcomes-photo, .community-photo { margin: 30px 0; max-width: 740px; }
 .board-source-strip a { display: inline-block; padding: 8px 0; }
 .quarter { min-width: 0; overflow-wrap: anywhere; }
@@ -121,5 +120,5 @@ h1, h2, h3, h4, p { font-family: var(--serif); }
   .map-marker text { font-size: 17px; }
 }
 @media print {
-  .board-instructions, .photo-details summary > span { display: none; }
+  .photo-details summary > span { display: none; }
 }

@@ -154,7 +154,7 @@
       "period": "Through Dec 2025",
       "sourcePage": 3,
       "status": "conflicting",
-      "note": "Source reports 32%, but denominator is unclear; no substitute total used."
+      "note": "The report gives 32% without identifying the denominator."
     },
     {
       "id": "ahd-deaths",

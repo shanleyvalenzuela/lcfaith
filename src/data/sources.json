@@ -21,7 +21,7 @@
     },
     {
       "title": "PhilHealth enhanced OHAT package",
-      "detail": "Source reports a ₱58,500 annual benefit, increased from ₱30,000. This is a source-attributed benefit, not an individual out-of-pocket cost or current eligibility determination.",
+      "detail": "PhilHealth announced a ₱58,500 annual benefit in December 2025, up from ₱30,000.",
       "pages": "5",
       "url": "https://www.philhealth.gov.ph/news/up/article/2025/news_692e3134d8786.php"
     }
@@ -49,12 +49,12 @@
     },
     {
       "title": "Image-only historical data",
-      "detail": "Annual 2016–2025 labels and two age-snapshot tables were transcribed from images. The 1984–2026 age-share chart has no readable numeric series; its source page is provided without guessed values.",
+      "detail": "The 1984–June 2026 chart shows the age distribution over time. The underlying percentages are unavailable.",
       "pages": "1, 2, 4, 5"
     },
     {
       "title": "Missing periods and causal claims",
-      "detail": "The surveillance figures cannot establish that Gen Z influenced reported diagnoses. This infographic covers the first half of 2026. The original Q2 report confirms that cumulative death counts run through June 2026.",
+      "detail": "The 2026 figures cover January–June, and cumulative deaths run through June 2026. Age-group counts alone cannot establish why diagnoses changed.",
       "pages": "1, 4"
     }
   ]

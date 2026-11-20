@@ -13,5 +13,5 @@
     {"label":"PLHIV to be tested for viral load","value":181294},
     {"label":"PLHIV not virally suppressed","value":183074}
   ],
-  "note":"The original figure's gaps are transcribed annotations relative to its targets. They are not independently measured patient transitions. The figure also shows 57% tested-for-viral-load coverage relative to ART, while the adjacent observed counts yield about 59%."
+  "note":"The figures compare observed totals with the 95–95–95 targets. The report’s annotation lists viral load testing at 57% of people on ART. Dividing 65,630 by 111,154 gives about 59%."
 }

@@ -88,7 +88,6 @@ export function PhotoTile({ file, alt, caption, className = '' }: { file: string
           <span className="photo-expand"><Maximize2 size={14} aria-hidden="true" /> View full photo</span>
           <span className="photo-collapse"><Minimize2 size={14} aria-hidden="true" /> Collapse photo</span>
         </summary>
-        <p className="photo-credit">Image supplied by the user. People pictured are not linked to the dashboard's statistical records; no health status is inferred.</p>
       </details>
     </figure>
   );
