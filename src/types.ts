@@ -10,5 +10,5 @@ export type Discussion = {
 };
 export type Selection = {
   label: string; value: number; unit: string;
-  period: string; page: number; note?: string; sourceLink?: string; denominator?: number;
+  period: string; note?: string; sourceLink?: string; denominator?: number;
 };

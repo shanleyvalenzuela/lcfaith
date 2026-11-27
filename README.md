@@ -33,13 +33,13 @@ Open the preview URL printed by Vite (normally `http://127.0.0.1:4173`). Preview
 - Shareable URL parameters for the annual range, age-comparison period, and selected region.
 - Responsive layouts, touch controls, visible focus states, keyboard-friendly inline disclosures, accessible alternatives to pointer-only charts, and reduced-motion support.
 - Searchable, filterable government and community program cards.
-- Direct links to pages in the local PDF and an inline historical figure preview. Browser charts do not fetch data from remote services.
+- Inline historical age-share figure and links to DOH and PhilHealth references. Browser charts do not fetch data from remote services.
 
 The page uses Syabil and Gravitica when installed locally. It falls back to system fonts. See `public/fonts/README.md` for webfont setup. The figures, source previews, and photos are served locally.
 
 ## Source and data handling
 
-The supplied research document is `public/source.pdf`; `public/source-pages/` holds its previews. The source notes link to the original DOH reports and explain the corrections to the Q2 count, age breakdown, regional period, and cumulative death coverage.
+The updated research document, `LCFAITH Final Output (2).pdf`, is retained at `reference/source.pdf` outside the deployed site; the previous version is kept at `reference/source-previous.pdf`. The revision adds KonsulTayo and Health is Life to the initiative explorer, with source notes clarifying their DOH attribution rather than presenting them as IAS-operated programs. Existing checked statistics and discrepancy notes are preserved. The historical age-share figure is shown as an image. The source notes link to the original DOH reports and explain the corrections to the Q2 count, age breakdown, regional period, and cumulative death coverage.
 
 Data files live in `src/data/`. Discussions refer to statistic IDs; source discrepancies are in `sources.json`. Missing quarters remain `null`. Incompatible reporting periods and denominators are not merged. Death counts are not labeled mortality rates. Generation names are discussed without attributing causation.
 
@@ -64,9 +64,9 @@ The regional locator uses the [PSA/NAMRIA 2023 boundary snapshot pinned by GeoCe
 6. Select care-cascade stages; inspect the changing denominator notes.
 7. Switch quarterly/cumulative mortality and count/share views.
 8. Search/filter initiatives and expand their details.
-9. Expand charts, use data-table buttons, and follow the source links to their PDF pages.
+9. Expand charts, use data-table buttons, and check the DOH and PhilHealth reference links.
 10. Use Tab, Enter/Space, and range arrow keys. Try a narrow mobile viewport, browser zoom, and reduced-motion settings.
 
 ## Static deployment
 
-Run `npm ci` and `npm run build`, then upload the contents of `dist/` to a static host. Serve that directory over HTTP with `index.html` as the default file. The relative asset base supports a site root or a subdirectory. Keep all files and folders from `dist/` together so the source PDF, page previews, and photos remain accessible. Use `npm run preview` to check the build locally before uploading.
+Run `npm ci` and `npm run build`, then upload the contents of `dist/` to a static host. Serve that directory over HTTP with `index.html` as the default file. The relative asset base supports a site root or a subdirectory. Keep all files and folders from `dist/` together so the map, historical figure, and photos remain accessible. Use `npm run preview` to check the build locally before uploading.

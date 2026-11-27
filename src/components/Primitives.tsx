@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import type { ReactNode } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
-import { BookOpen, ChevronDown, Info, Maximize2, Minimize2, Table2 } from 'lucide-react';
+import { ChevronDown, Info, Maximize2, Minimize2, Table2 } from 'lucide-react';
 import type { Discussion, Selection, Statistic } from '../types';
 
 export const number = (n: number) => new Intl.NumberFormat('en-PH').format(n);
 export const percent = (n: number, d: number) => `${(n / d * 100).toFixed(1)}%`;
-export const sourceUrl = (page = 1) => `${import.meta.env.BASE_URL}source.pdf#page=${page}`;
 
 export function Reveal({ children, className = '' }: { children: ReactNode; className?: string }) {
   const reduced = useReducedMotion();
@@ -19,15 +18,6 @@ export function Disclosure({ label, children, className = '' }: { label: ReactNo
       <summary>{label}<ChevronDown className="disclosure-chevron" size={16} aria-hidden="true" /></summary>
       <div className="disclosure-content">{children}</div>
     </details>
-  );
-}
-
-export function SourceLinks({ pages }: { pages: number[] }) {
-  return (
-    <span className="source-citations">
-      <BookOpen size={15} aria-hidden="true" />
-      {pages.map(page => <a key={page} href={sourceUrl(page)}>Source p. {page}</a>)}
-    </span>
   );
 }
 
@@ -45,14 +35,6 @@ export function DiscussionBlock({ item }: { item: Discussion }) {
         <h4>How to read this</h4>
         <p>{item.limit}</p>
       </div>
-      <div className="discussion-sources">
-        <BookOpen size={15} aria-hidden="true" />
-        {item.pages.map(page => (
-          <a key={page} href={sourceUrl(page)}>
-            Source page {page}
-          </a>
-        ))}
-      </div>
     </div>
   );
 }
@@ -69,10 +51,7 @@ export function SelectionDetail({ selection }: { selection: Selection | null }) 
           {selection.note && <p className="selection-note">{selection.note}</p>}
         </> : <span className="selection-hint"><Info size={14} aria-hidden="true" /> Select a value for details</span>}
       </div>
-      {selection && <>
-        {selection.sourceLink && <p><a href={selection.sourceLink}>Read the original DOH surveillance report</a></p>}
-        <SourceLinks pages={[selection.page]} />
-      </>}
+      {selection?.sourceLink && <p><a href={selection.sourceLink}>Read the DOH surveillance report</a></p>}
     </div>
   );
 }
@@ -97,8 +76,8 @@ export function DataTable({ rows, onSelect, caption }: { rows: Statistic[]; onSe
   return <div className="table-scroll" tabIndex={0} role="region" aria-label={`${caption} table`}><table><caption>{caption}</caption><thead><tr><th scope="col">Category</th><th scope="col">Value</th><th scope="col">Period / notes</th></tr></thead><tbody>{rows.map(r => <tr key={r.id}><th scope="row">{onSelect && r.value !== null ? <button onClick={() => onSelect(r)}>{r.label}</button> : r.label}</th><td>{r.value === null ? 'Not provided' : `${number(r.value)} ${r.unit}`}{r.denominator && r.value !== null && <small>{percent(r.value, r.denominator)} of {number(r.denominator)}</small>}</td><td>{r.period}{r.status === 'conflicting' && <span className="status-label">Source discrepancy</span>}{r.note && <small>{r.note}</small>}</td></tr>)}</tbody></table></div>;
 }
 
-export function ChartCard({ title, subtitle, children, rows, onSelect, pages, tools, detail }: {
-  title: string; subtitle: string; children: ReactNode; rows: Statistic[]; onSelect?: (s: Statistic) => void; pages: number[]; tools?: ReactNode; detail?: ReactNode;
+export function ChartCard({ title, subtitle, children, rows, onSelect, tools, detail }: {
+  title: string; subtitle: string; children: ReactNode; rows: Statistic[]; onSelect?: (s: Statistic) => void; tools?: ReactNode; detail?: ReactNode;
 }) {
   const [expanded, setExpanded] = useState(false);
   return (
@@ -115,7 +94,6 @@ export function ChartCard({ title, subtitle, children, rows, onSelect, pages, to
       <Disclosure className="data-disclosure" label={<><Table2 size={15} aria-hidden="true" /> View data table</>}>
         <DataTable rows={rows} onSelect={onSelect} caption={title} />
       </Disclosure>
-      <div className="chart-footer"><SourceLinks pages={pages} /></div>
     </div>
   );
 }

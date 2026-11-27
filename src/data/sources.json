@@ -1,5 +1,4 @@
 {
-  "title": "Gen Z's Relation to a Decrease in HIV Statistics of 2026",
   "references": [
     {
       "title": "DOH Q4 2025 surveillance report",
@@ -24,6 +23,12 @@
       "detail": "PhilHealth announced a ₱58,500 annual benefit in December 2025, up from ₱30,000.",
       "pages": "5",
       "url": "https://www.philhealth.gov.ph/news/up/article/2025/news_692e3134d8786.php"
+    },
+    {
+      "title": "DOH health education campaigns",
+      "detail": "Identifies Health is Life and KonsulTayo as DOH flagship campaigns, including their use in HIV and sexual health education.",
+      "pages": "6",
+      "url": "https://bicol.doh.gov.ph/news-releases/bicol-health-partners-unite-to-fight-hiv-aids/"
     }
   ],
   "discrepancies": [
@@ -33,8 +38,8 @@
       "pages": "1, 4"
     },
     {
-      "title": "Youth growth claim differs from the table",
-      "detail": "The original DOH table confirms a 104.80% increase in cumulative diagnoses for ages 15–24 between June 2021 and June 2026. The research PDF’s +302% claim is unsupported by that comparison.",
+      "title": "Cumulative diagnoses among young people",
+      "detail": "Cumulative diagnoses for ages 15–24 increased by 104.80% between June 2021 and June 2026. This comparison does not establish a generational effect.",
       "pages": "4–5"
     },
     {
@@ -46,11 +51,6 @@
       "title": "Regional reporting periods",
       "detail": "The original DOH table confirms the regional counts span January 1984–December 2025. The separate 2,562 figure counts Q4 2025 diagnoses across the five regions.",
       "pages": "2"
-    },
-    {
-      "title": "Image-only historical data",
-      "detail": "The 1984–June 2026 chart shows the age distribution over time. The underlying percentages are unavailable.",
-      "pages": "1, 2, 4, 5"
     },
     {
       "title": "Missing periods and causal claims",

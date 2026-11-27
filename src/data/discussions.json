@@ -66,7 +66,7 @@
     "id": "care",
     "title": "A different denominator at each step",
     "text": "The June 2026 cascade moves from an estimated 288,000 people living with HIV to 159,997 diagnosed, 111,154 on ART, 65,630 tested for viral load, and 63,850 virally suppressed. The suppression percentage applies to those tested.",
-    "limit": "This aggregate snapshot does not track an individual patient cohort. Stage gaps are not measured dropout. The original figure's 95–95–95 targets are goals, not observed totals.",
+    "limit": "This aggregate snapshot does not track an individual patient cohort. Stage gaps are not measured dropout. The 95–95–95 targets are goals, not observed totals.",
     "statisticIds": [
       "estimated",
       "diagnosed",
