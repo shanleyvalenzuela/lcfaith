@@ -54,6 +54,14 @@
     "page": 6
   },
   {
+    "id": "ias",
+    "name": "International AIDS Society (IAS)",
+    "kind": "Community",
+    "focus": "HIV science, education & advocacy",
+    "services": ["Education", "Rights"],
+    "detail": "The International AIDS Society brings together scientists, policy makers, healthcare professionals, and advocates to advance the global HIV response. Its work includes HIV conferences, education and knowledge sharing, youth engagement, and advocacy for evidence-based policies and human rights."
+  },
+  {
     "id": "ship",
     "name": "SHIP",
     "kind": "Community",
